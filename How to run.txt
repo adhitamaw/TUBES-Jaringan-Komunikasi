@@ -1,0 +1,5 @@
+1. buka cmd nya di folder ini
+2. saat di cmd ketik python server.py
+3. server jalan
+4. buka di browser http://localhost:8080/contoh1.html atau contoh.html
+5. terbuka

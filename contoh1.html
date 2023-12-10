@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Perkenalan Anggota</title>
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .member {
+            width: 400px;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .member:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: #333333;
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
+        p {
+            color: #666666;
+            text-align: justify;
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            .member {
+                width: 300px;
+            }
+
+            img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header style="background-color: #333333; padding: 20px;">
+        <h1 style="color: #ffffff; text-align: center;">Selamat Datang</h1>
+    </header>
+
+    <div class="member">
+        <h1>Speedrunner Jarkom 1</h1>
+        <img src="gambar1.jpg" alt="Foto Profil">
+        <p>Halo, nama saya Adhitama Wichaksono. Saya seorang mahasiswa telkomuniversity dengan jurusan S1 Informatika.</p>
+        <p>Saya memiliki pengalaman dalam bahasa pemrograman Python, c++, dan golang, dan saya selalu senang untuk belajar hal baru.</p>
+    </div>
+    
+    <div class="member">
+        <h1>Speedrunner Jarkom 2</h1>
+        <img src="gambar2.jpeg" alt="Foto Profil">
+        <p>Halo, nama saya Andi Ahmad RMP. Saya seorang mahasiswa telkomuniversity dengan jurusan S1 Informatika.</p>
+        <p>Tidak mempunyai skill khusus selain bermain Game bergenre MOBA di Mobile .Berani Mencoba hal-hal yang baru</p>
+    </div>
+    
+    <div class="member">
+        <h1>Speedrunner Jarkom 3</h1>
+        <img src="gambar3.jpeg" alt="Foto Profil">
+        <p>Halo, nama saya Dwiki Arliman. Saya seorang Mahasiswa Jurusan S1 Informatika Telkomuniversity .</p>
+        <p>Saya Memiliki humor yang sangat tinggi dan etika yang baik dalam berkomunikasi.</p>
+    </div>
+</body>
+</html>
